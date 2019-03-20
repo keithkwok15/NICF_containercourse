@@ -21,5 +21,5 @@ Deploy the application
         -e  DB_HOST=mydb \
         --network mynet \
         --name myapp \
-        stackupiss/northwind-db:v1
+        <myapp>
 
