@@ -22,7 +22,7 @@ deployment:
 
 
 APP_ID: ecbd92ff90840c3a36dad8d16f7f7fb2
-DEFAULT_CITY: Singapore
+APP_DEFAULT_CITY: Singapore
 
 productionEnv : true
-productionReplicaCount:2
+productionReplicaCount: 2

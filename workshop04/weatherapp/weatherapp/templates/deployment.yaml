@@ -30,8 +30,8 @@ spec:
           env:
           - name: APP_ID
             value: {{.Values.APP_ID}}
-          - name: DEFAULT_CITY
-            value: {{.Values.DEFAULT_CITY}}        
+          - name: APP_DEFAULT_CITY
+            value: {{default "Singapore" .Values.APP_DEFAULT_CITY}}        
           livenessProbe:
             httpGet:
               path: /health
